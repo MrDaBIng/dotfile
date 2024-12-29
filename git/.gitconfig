@@ -1,0 +1,15 @@
+# This is Git's per-user configuration file.
+[user]
+	name = show.ys
+	email = yangshow9226@163.com
+# Please adapt and uncomment the following lines:
+#	name = show
+#	email = yangshow9226@163.com
+
+# Enforce SSH
+[url "ssh://git@github.com/"]
+  insteadOf = https://github.com/
+[url "ssh://git@gitlab.com/"]
+  insteadOf = https://gitlab.com/
+[url "ssh://git@bitbucket.org/"]
+  insteadOf = https://bitbucket.org/
